@@ -1,16 +1,25 @@
 {
-  "name": "bq-api",
-  "version": "1.0.0",
-  "description": "",
+  "name": "bq-api-fastify",
+  "version": "0.0.0",
+  "description": "Burger Queen API made with Fatify",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node index.js"
+    "test": "vitest run --coverage"
   },
-  "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fakel/bq-api-fastify.git"
+  },
+  "keywords": [
+    "REST",
+    "API",
+    "FASTIFY",
+    "VITEST"
+  ],
+  "author": "Fares A. Akel C.",
   "license": "ISC",
-  "dependencies": {
-    "json-server": "^0.17.0"
-  }
+  "bugs": {
+    "url": "https://github.com/fakel/bq-api-fastify/issues"
+  },
+  "homepage": "https://github.com/fakel/bq-api-fastify#readme"
 }
